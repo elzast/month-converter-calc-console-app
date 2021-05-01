@@ -60,7 +60,7 @@ namespace calc_and_month_converter_hw
             //Make sure the number is not less than 1 and not greater than 12
             //Once you have a valid number, the application should print out the month that corresponds to the number
 
-            Console.WriteLine("Enter your second variable");
+            Console.WriteLine("Enter a number 1 - 12");
             int monthNum = int.Parse(Console.ReadLine());
             if (monthNum >= 1 && monthNum <= 12)
                 switch (monthNum)
