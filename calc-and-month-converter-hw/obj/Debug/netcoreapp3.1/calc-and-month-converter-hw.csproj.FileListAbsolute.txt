@@ -1,0 +1,12 @@
+/Users/Eli/Projects/calc-and-month-converter-hw/calc-and-month-converter-hw/bin/Debug/netcoreapp3.1/calc-and-month-converter-hw.deps.json
+/Users/Eli/Projects/calc-and-month-converter-hw/calc-and-month-converter-hw/bin/Debug/netcoreapp3.1/calc-and-month-converter-hw.runtimeconfig.json
+/Users/Eli/Projects/calc-and-month-converter-hw/calc-and-month-converter-hw/bin/Debug/netcoreapp3.1/calc-and-month-converter-hw.runtimeconfig.dev.json
+/Users/Eli/Projects/calc-and-month-converter-hw/calc-and-month-converter-hw/bin/Debug/netcoreapp3.1/calc-and-month-converter-hw.dll
+/Users/Eli/Projects/calc-and-month-converter-hw/calc-and-month-converter-hw/bin/Debug/netcoreapp3.1/calc-and-month-converter-hw.pdb
+/Users/Eli/Projects/calc-and-month-converter-hw/calc-and-month-converter-hw/obj/Debug/netcoreapp3.1/calc-and-month-converter-hw.csprojAssemblyReference.cache
+/Users/Eli/Projects/calc-and-month-converter-hw/calc-and-month-converter-hw/obj/Debug/netcoreapp3.1/calc-and-month-converter-hw.AssemblyInfoInputs.cache
+/Users/Eli/Projects/calc-and-month-converter-hw/calc-and-month-converter-hw/obj/Debug/netcoreapp3.1/calc-and-month-converter-hw.AssemblyInfo.cs
+/Users/Eli/Projects/calc-and-month-converter-hw/calc-and-month-converter-hw/obj/Debug/netcoreapp3.1/calc-and-month-converter-hw.csproj.CoreCompileInputs.cache
+/Users/Eli/Projects/calc-and-month-converter-hw/calc-and-month-converter-hw/obj/Debug/netcoreapp3.1/calc-and-month-converter-hw.dll
+/Users/Eli/Projects/calc-and-month-converter-hw/calc-and-month-converter-hw/obj/Debug/netcoreapp3.1/calc-and-month-converter-hw.pdb
+/Users/Eli/Projects/calc-and-month-converter-hw/calc-and-month-converter-hw/obj/Debug/netcoreapp3.1/calc-and-month-converter-hw.genruntimeconfig.cache
