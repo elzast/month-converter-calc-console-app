@@ -11,37 +11,37 @@ namespace calc_and_month_converter_hw
             //Store user’s input into a variable
             //Ask the user to enter the second number
             //Store user’s input into a variable
-            Console.WriteLine("Enter your first variable");
-            double var1 = double.Parse(Console.ReadLine());
-            Console.WriteLine("Enter your second variable");
-            double var2 = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter your first variable");
+            //double var1 = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter your second variable");
+            //double var2 = double.Parse(Console.ReadLine());
 
             //Ask the user the following: "Would you like to (1)Add (2)Subtract (3)Multiply (4)Divide?"
-            Console.WriteLine("Would you like to (1)Add (2)Subtract (3)Multiply (4)Divide?  Example: 'Divide'");
-            string calcFunction = Console.ReadLine().ToLower();
-            switch (calcFunction)
-            {
-                case "add":
-              double addVars = var1 + var2;
-                    Console.WriteLine($"{addVars}");
-                    break;
-                case "subtract":
-                    double subtractVars = var1 - var2;
-                    Console.WriteLine($"{subtractVars}");
-                    break;
-                case "multiply":
-                    double multiplyVars = var1 * var2;
-                    Console.WriteLine($"{multiplyVars}");
-                    break;
-                case "divide":
-                    double divideVars = var1 / var2;
-                    Console.WriteLine($"{divideVars}");
-                    break;
-                default:
-                    Console.WriteLine("Please choose a valid option");
-                    break;
+            //Console.WriteLine("Would you like to (1)Add (2)Subtract (3)Multiply (4)Divide?  Example: 'Divide'");
+            //string calcFunction = Console.ReadLine().ToLower();
+            //switch (calcFunction)
+            //{
+            //    case "add":
+            //  double addVars = var1 + var2;
+            //        Console.WriteLine($"{addVars}");
+            //        break;
+            //    case "subtract":
+            //        double subtractVars = var1 - var2;
+            //        Console.WriteLine($"{subtractVars}");
+            //        break;
+            //    case "multiply":
+            //        double multiplyVars = var1 * var2;
+            //        Console.WriteLine($"{multiplyVars}");
+            //        break;
+            //    case "divide":
+            //        double divideVars = var1 / var2;
+            //        Console.WriteLine($"{divideVars}");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Please choose a valid option");
+            //        break;
 
-            }
+            //}
             //Store the user’s input in a variable
             //Create a switch statement that switches based on the users choice
             //The first case should print the sum of the first number and the second number
@@ -62,56 +62,69 @@ namespace calc_and_month_converter_hw
 
             Console.WriteLine("Enter a number 1 - 12");
             int monthNum = int.Parse(Console.ReadLine());
-            if (monthNum >= 1 && monthNum <= 12)
-                switch (monthNum)
+            bool keepGoing = true;
+            string userInput;
+            while (keepGoing)
             {
-                    case 1:
-                        Console.WriteLine("January");
-                        break;
-                    case 2:
-                        Console.WriteLine("February");
-                        break;
-                    case 3:
-                        Console.WriteLine("March");
-                        break;
-                    case 4:
-                        Console.WriteLine("April");
-                        break;
-                    case 5:
-                        Console.WriteLine("May");
-                        break;
-                    case 6:
-                        Console.WriteLine("June");
-                        break;
-                    case 7:
-                        Console.WriteLine("July");
-                        break;
-                    case 8:
-                        Console.WriteLine("August");
-                        break;
-                    case 9:
-                        Console.WriteLine("September");
-                        break;
-                    case 10:
-                        Console.WriteLine("October");
-                        break;
-                    case 11:
-                        Console.WriteLine("November");
-                        break;
-                    case 12:
-                        Console.WriteLine("December");
-                        break;
+                if (monthNum >= 1 && monthNum <= 12)
+                    switch (monthNum)
+                    {
+                        case 1:
+                            Console.WriteLine("January");
+                            break;
+                        case 2:
+                            Console.WriteLine("February");
+                            break;
+                        case 3:
+                            Console.WriteLine("March");
+                            break;
+                        case 4:
+                            Console.WriteLine("April");
+                            break;
+                        case 5:
+                            Console.WriteLine("May");
+                            break;
+                        case 6:
+                            Console.WriteLine("June");
+                            break;
+                        case 7:
+                            Console.WriteLine("July");
+                            break;
+                        case 8:
+                            Console.WriteLine("August");
+                            break;
+                        case 9:
+                            Console.WriteLine("September");
+                            break;
+                        case 10:
+                            Console.WriteLine("October");
+                            break;
+                        case 11:
+                            Console.WriteLine("November");
+                            break;
+                        case 12:
+                            Console.WriteLine("December");
+                            break;
+                    }
+
+
+
+
+                if (monthNum <= 1 || monthNum >= 12)
+                {
+                    Console.WriteLine("Enter a valid number");
+                    Console.WriteLine("Enter a number 1 - 12");
+                    monthNum = int.Parse(Console.ReadLine());
+
                 }
-            else
-            {
-                Console.WriteLine("Enter a valid number 1 - 12");
+                else
+                {
+
+                    Console.WriteLine("Press ENTER to Exit");
+                    Console.ReadLine();
+                    keepGoing = false;
+                }
             }
-
-
-            Console.WriteLine("Press ENTER to Exit");
-            Console.ReadLine();
-
-            //Example: 1 → January, 3 → March, etc.
         }
     }
 }

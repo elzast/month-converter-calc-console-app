@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{F26EA0F1-EA86-4F66-89B2-72DA7421C740}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="calc-and-month-converter-hw/Program.cs">
     <Files>
-      <File FileName="calc-and-month-converter-hw/Program.cs" Line="67" Column="14" />
+      <File FileName="calc-and-month-converter-hw/Program.cs" Line="117" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,6 +12,9 @@
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
